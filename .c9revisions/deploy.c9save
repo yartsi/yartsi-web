@@ -1,0 +1,1 @@
+{"ts":1354380442621,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"#!/bin/sh\n\n# Add the 'heroku' remote if not here already\ngit remote show heroku >/dev/null 2>&1 \\\n  || git remote add heroku git@heroku.com:scratchml.git\n\n# To deploy: push to heroku\ngit push heroku master\n\n"]],"start1":0,"start2":0,"length1":0,"length2":207}]],"length":207}
